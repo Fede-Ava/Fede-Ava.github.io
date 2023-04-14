@@ -1,35 +1,50 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HaySon-WU的个人空间</title>
+    <title>鲸鱼科技-用户登录</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <style>
-        img {
-            width: 300px;
-            margin: 10px auto;
-        }
-
-        h1 {
-            width: 300px;
-            height: 50px;
-            text-align: center;
-            font-size: 30px;
-            margin: 20px auto;
-            color: #6d2474;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/Login-interface.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3990820_ludfh16fwok.css">
 </head>
 
 <body>
-    <header>
-        <h1>爱你呀，我的宝贝！</h1>
-        <img src="./imges/520.jpg" alt="520">
-    </header>
+    <h1 class="company-name">鲸鱼科技</h1>
+    <div class="main-login">
+        <img src="../鲸鱼科技/imges/头像.jpg" alt="头像">
+        <form action="#" class="login">
+            <div class="scanner pwd clearfix">
+                <span class="iconfont icon-zhanghao"></span>
+                <input type="text" class="rightfix" name="account" placeholder="用户名"></input>
+            </div>
+            <div class="scanner clearfix">
+                <span class="iconfont icon-mima"></span>
+                <input type="password" class="rightfix" name="pwd" placeholder="密码"></input>
+            </div>
+            <button>登&nbsp;&nbsp;&nbsp;录</button>
+        </form>
+        <ul class="function clearfix">
+            <li class="leftfix clearfix">
+                <span class="iconfont icon-gongyezujian-kaiguan leftfix"></span>
+                记住密码
+            </li>
+            <li class="rightfix">忘记密码</li>
+        </ul>
+        <ul class="function clearfix">
+            <li class="leftfix">免费注册</li>
+            <li class="rightfix">其他帮助</li>
+        </ul>
+    </div>
+    <div class="logo-version clearfix">
+        <div class="version rightfix">
+            <img src="./imges/公司logo.png" alt="公司logo">
+            <span>鲸鱼科技 version 1.1</span>
+        </div>
+
+    </div>
 </body>
 
 </html>

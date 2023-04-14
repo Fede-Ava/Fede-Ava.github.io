@@ -1,0 +1,139 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(../imges/登陆界面背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.company-name {
+    margin-top: 20px;
+    font-size: 48px;
+    color: #fff;
+    padding-left: 70px;
+    font-family: 方正综艺体-标准;
+}
+
+.main-login {
+    width: 390px;
+    height: 573px;
+    /* background-color: gray; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-login img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 135px;
+}
+
+.scanner {
+    line-height: 60px;
+    width: 390px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #4D3A59;
+    box-sizing: border-box;
+}
+
+.scanner>span {
+    padding-left: 18px;
+    font-size: 30px;
+}
+
+.scanner>input {
+    width: 330px;
+    height: 60px;
+    border-radius: 0 30px 30px 0;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-left: 1px solid #4D3A59;
+    font-size: 20px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.scanner>input:focus {
+    background-color: transparent;
+}
+
+.scanner>input::placeholder {
+    color: whitesmoke;
+}
+
+
+
+.pwd {
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+.login>button {
+    color: #fff;
+    width: 390px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    font-size: 28px;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.function {
+    width: 390px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.function>li {
+    cursor: pointer;
+
+}
+
+.function .iconfont {
+    font-size: 30px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.logo-version {
+    height: 78px;
+    /* background-color: yellowgreen; */
+    position: relative;
+    transform: translate(0, 760px);
+}
+
+.version {
+    width: 138px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-version .version img {
+    width: 40px;
+    filter: invert(100%);
+}
+
+.logo-version .version span {
+    color: #fff;
+}
