@@ -31,3 +31,20 @@ header {
     cursor: pointer;
     color: orange;
 }
+
+/* 内容区start */
+.content .container {
+    margin-top: 50px;
+}
+
+.profile {
+    width: 500px;
+    height: 500px;
+    background-color: #888;
+}
+
+.fulfilment {
+    width: 500px;
+    height: 500px;
+    background-color: #888;
+}
