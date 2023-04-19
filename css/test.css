@@ -1,13 +1,10 @@
-html {
-    background-color: #BBBBBB;
-}
-
 /* header-start */
 header {
     width: 100%;
     height: 45px;
-    background-color: #9C83C0;
+    background-color: #4D3A59;
     margin-top: 5px;
+    border-bottom: 1px solid #4D3A59;
 }
 
 header>.container {
@@ -19,11 +16,13 @@ header>.container {
 .function {
     width: 200px;
     height: 100%;
-    background-color: #BBBBBB;
+    background-color: #FFF;
     float: left;
     border-radius: 23px;
     text-align: center;
     line-height: 45px;
+    border-top: 1px solid #4D3A59;
+    border-bottom: 1px solid #4D3A59;
 }
 
 .function>i {
@@ -39,14 +38,14 @@ header>.container {
 /* content-start */
 .content>.container {
     width: 1290px;
-    background-color: #E2BABA88;
+    background-color: #fff;
     margin: 0 auto;
 }
 
 .banner {
     height: 405px;
     width: 610px;
-    background-color: #9C83C088;
+    background-color: #4D3A5988;
     margin-top: 50px;
     border-radius: 10px;
 }
