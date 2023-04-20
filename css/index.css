@@ -71,8 +71,10 @@ header>.container {
 }
 
 .banner>ul>li {
+    color: white;
+    font-weight: 700;
     font-size: 20px;
-    margin: 35px 84px;
+    margin: 35px 80px;
 }
 
 
