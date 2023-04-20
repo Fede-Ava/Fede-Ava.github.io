@@ -25,6 +25,12 @@ header>.container {
     border-bottom: 1px solid #4D3A59;
 }
 
+.function:hover {
+    border-left: 77px solid #4D3A5988;
+    border-right: 77px solid #4D3A5988;
+    box-sizing: border-box;
+}
+
 .function>i {
     font-size: 40px;
 }
@@ -50,6 +56,24 @@ header>.container {
     border-radius: 10px;
 }
 
+.banner1 .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 10px auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.banner1 .img i {
+    line-height: 80px;
+    font-size: 60px;
+}
+
+.banner>ul>li {
+    font-size: 20px;
+    margin: 35px 84px;
+}
 
 
 /* content-end */
